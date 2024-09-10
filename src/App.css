@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
+body {
+    background-color: rgb(13, 21, 95);
+    color: lightgrey;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+html {
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.9) inset;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.responsive-img {
+    max-width: 250px;
+    border-radius: 50%
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.sk1 {
+    margin-top: 3%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.App-link {
-  color: #61dafb;
+
+.sk2 {
+    margin-top: 3%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.sk3{
+    margin-top: 3%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.skill1 {
+    background-color: #8b9eb7 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1em !important;
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    font-size: 1.1rem !important;
+}
+
+
+
+.skill2 {
+    background-color: #8b9eb7 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1em !important;
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    font-size: 1.1rem !important;
+}
+
+
+
+.skill3 {
+    background-color: #8b9eb7 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1em !important;
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    font-size: 1.1rem !important;
+}
+
+
+
+.skill4 {
+    background-color: #8b9eb7 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1em !important;
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    font-size: 1.1rem !important;
+}
+
+
+
+
+.skill5 {
+    background-color: #8b9eb7 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1em !important;
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    font-size: 1.1rem !important;
+}
+
+
+
+
+.skill6 {
+    background-color: #8b9eb7 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1em !important;
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    font-size: 1.1rem !important;
+}
+
+
+
+
+.skill7 {
+    background-color: #8b9eb7 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1em !important;
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    font-size: 1.1rem !important;
+}
+
+
+
+
+.skill8 {
+    background-color: #8b9eb7 !important;
+    color: black !important;
+    font-weight: bold !important;
+    padding: 1em !important;
+    border-radius: 4px !important;
+    max-width: 300px !important;
+    font-size: 1.1rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1280px) {
+    .responsive-img {
+        max-width: 300px;
+    }
 }
