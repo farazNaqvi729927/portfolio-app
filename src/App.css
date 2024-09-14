@@ -10,9 +10,17 @@ html {
 }
 
 
+
+
+.conctN {
+    font-size: calc(1rem + 0.7vw) !important;
+}
+
+
+
 .responsive-img {
-    max-width: 250px;
-    border-radius: 50%
+    width: 200px;
+    border-radius: 50%;
 }
 
 
@@ -36,7 +44,7 @@ html {
 
 
 
-.sk3{
+.sk3 {
     margin-top: 3%;
     display: flex;
     gap: 1em;
@@ -53,8 +61,8 @@ html {
     font-weight: bold !important;
     padding: 1em !important;
     border-radius: 4px !important;
-    max-width: 300px !important;
-    font-size: 1.1rem !important;
+    max-width: calc(300px + 1vw) !important;
+    font-size: calc(1rem + 0.5vw) !important;
 }
 
 
@@ -65,8 +73,8 @@ html {
     font-weight: bold !important;
     padding: 1em !important;
     border-radius: 4px !important;
-    max-width: 300px !important;
-    font-size: 1.1rem !important;
+    max-width: calc(300px + 1vw) !important;
+    font-size: calc(1rem + 0.5vw) !important;
 }
 
 
@@ -77,8 +85,8 @@ html {
     font-weight: bold !important;
     padding: 1em !important;
     border-radius: 4px !important;
-    max-width: 300px !important;
-    font-size: 1.1rem !important;
+    max-width: calc(300px + 1vw) !important;
+    font-size: calc(1rem + 0.5vw) !important;
 }
 
 
@@ -89,8 +97,8 @@ html {
     font-weight: bold !important;
     padding: 1em !important;
     border-radius: 4px !important;
-    max-width: 300px !important;
-    font-size: 1.1rem !important;
+    max-width: calc(300px + 1vw) !important;
+    font-size: calc(1rem + 0.5vw) !important;
 }
 
 
@@ -102,8 +110,8 @@ html {
     font-weight: bold !important;
     padding: 1em !important;
     border-radius: 4px !important;
-    max-width: 300px !important;
-    font-size: 1.1rem !important;
+    max-width: calc(300px + 1vw) !important;
+    font-size: calc(1rem + 0.5vw) !important;
 }
 
 
@@ -115,8 +123,8 @@ html {
     font-weight: bold !important;
     padding: 1em !important;
     border-radius: 4px !important;
-    max-width: 300px !important;
-    font-size: 1.1rem !important;
+    max-width: calc(300px + 1vw) !important;
+    font-size: calc(1rem + 0.5vw) !important;
 }
 
 
@@ -128,8 +136,8 @@ html {
     font-weight: bold !important;
     padding: 1em !important;
     border-radius: 4px !important;
-    max-width: 300px !important;
-    font-size: 1.1rem !important;
+    max-width: calc(300px + 1vw) !important;
+    font-size: calc(1rem + 0.5vw) !important;
 }
 
 
@@ -141,28 +149,271 @@ html {
     font-weight: bold !important;
     padding: 1em !important;
     border-radius: 4px !important;
-    max-width: 300px !important;
-    font-size: 1.1rem !important;
+    max-width: calc(300px + 1vw) !important;
+    font-size: calc(1rem + 0.5vw) !important;
+}
+
+
+
+.f1 {
+    height: 250px;
+    background-color: #8b9eb7;
+    font-size: calc(1rem + 0.8vw);
+    font-family: monospace;
+}
+
+.f1:hover {
+    background-color: #8b9eb7;
+}
+
+
+.contact {
+    justify-content: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 2em;
+    border-radius: 3%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+
+
+
+@media (min-width:320px) {
+    .responsive-img {
+        width: 280px
+    }
+
+    .cards {
+        max-width: 450px;
+    }
+}
+
+
+
+
+@media (min-width:480px) {
+    .responsive-img {
+        width: 320px
+    }
+
+    .cards {
+        max-width: 450px;
+    }
+}
+
+
+
+
+@media (min-width:576px) {
+    .responsive-img {
+        width: 350px
+    }
+
+
+    .cards {
+        max-width: 450px;
+    }
+}
+
+
+
+@media (min-width:768px) {
+    .responsive-img {
+        width: 380px
+    }
+
+
+    .cards {
+        max-width: 450px;
+    }
+}
+
+
+
+@media (min-width:1024px) {
+    .responsive-img {
+        width: 420px
+    }
+
+
+    .cards {
+        max-width: 450px;
+    }
+}
+
+
+
+@media (min-width:1280px) {
+    .responsive-img {
+        width: 420px
+    }
+
+
+    .cards {
+        max-width: 450px;
+    }
+}
+
+
+
+
+@media (min-width:1440px) {
+    .responsive-img {
+        width: 500px
+    }
+
+
+    .cards {
+        max-width: 450px;
+    }
+}
+
+
+
+
+@media (min-width:1536px) {
+    .responsive-img {
+        width: 520px
+    }
+
+
+    .cards {
+        max-width: 450px;
+    }
 }
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width:1280px) {
+@media (min-width:1920px) {
     .responsive-img {
-        max-width: 300px;
+        width: 520px
+    }
+
+
+    .cards {
+        max-width: 450px;
+    }
+}
+
+
+
+
+@media (min-width:2560px) {
+    .responsive-img {
+        width: 620px;
+        margin-top: 2%;
+    }
+
+    .cards {
+        max-width: 600px;
+    }
+
+
+
+    .skill1 {
+        background-color: #8b9eb7 !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 1em !important;
+        border-radius: 4px !important;
+        max-width: calc(300px + 1vw) !important;
+        font-size: calc(1rem + 0.7vw) !important;
+    }
+
+
+    .skill2 {
+        background-color: #8b9eb7 !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 1em !important;
+        border-radius: 4px !important;
+        max-width: calc(300px + 1vw) !important;
+        font-size: calc(1rem + 0.7vw) !important;
+    }
+
+
+    .skill3 {
+        background-color: #8b9eb7 !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 1em !important;
+        border-radius: 4px !important;
+        max-width: calc(300px + 1vw) !important;
+        font-size: calc(1rem + 0.7vw) !important;
+    }
+
+
+    .skill4 {
+        background-color: #8b9eb7 !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 1em !important;
+        border-radius: 4px !important;
+        max-width: 400px !important;
+        font-size: calc(1rem + 0.7vw) !important;
+    }
+
+
+    .skill5 {
+        background-color: #8b9eb7 !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 1em !important;
+        border-radius: 4px !important;
+        max-width: calc(300px + 1vw) !important;
+        font-size: calc(1rem + 0.7vw) !important;
+    }
+
+
+    .skill6 {
+        background-color: #8b9eb7 !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 1em !important;
+        border-radius: 4px !important;
+        max-width: calc(300px + 1vw) !important;
+        font-size: calc(1rem + 0.7vw) !important;
+    }
+
+
+    .skill7 {
+        background-color: #8b9eb7 !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 1em !important;
+        border-radius: 4px !important;
+        max-width: calc(300px + 1vw) !important;
+        font-size: calc(1rem + 0.7vw) !important;
+    }
+
+
+    .skill8 {
+        background-color: #8b9eb7 !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 1em !important;
+        border-radius: 4px !important;
+        max-width: calc(300px + 1vw) !important;
+        font-size: calc(1rem + 0.7vw) !important;
+    }
+
+
+    .conctN {
+        font-size: calc(1rem + 1.2vw) !important;
+    }
+
+
+
+    .f1 {
+        height: 350px;
+        background-color: #8b9eb7;
+        font-size: calc(1rem + 0.8vw);
+        font-family: monospace;
     }
 }
